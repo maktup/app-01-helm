@@ -1,15 +1,18 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "employee-app.fullname" . }}
+  name: employee-service
+  namespace: default
   labels:
-    {{- include "employee-app.labels" . | nindent 4 }}
-spec:
-  type: {{ .Values.service.type }}
+    app: microservicio-employee-service
+    role: backend
+    stage: production
+spec: 
   ports:
-    - port: {{ .Values.service.port }}
-      targetPort: http
-      protocol: TCP
-      name: http
+    - name: http
+      port: {{.values.servicePort}}
   selector:
-    {{- include "employee-app.selectorLabels" . | nindent 4 }}
+    app: microservicio-employee-service
+    version: v1.0.0
+  type: NodePort
+
