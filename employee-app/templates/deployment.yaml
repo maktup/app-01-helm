@@ -9,7 +9,7 @@ metadata:
     stage: production
     version: v1.0.0
 spec:
-  replicas: {{ .values.appReplicaCount }}
+  replicas: {{ .Values.appReplicaCount }}
   selector:
     matchLabels:
       app: microservicio-employee-service
@@ -25,11 +25,11 @@ spec:
           image: maktup/employee-service:latest
           imagePullPolicy: Always
           ports:
-            - containerPort: {{ .values.containerPort }}
+            - containerPort: {{ .Values.containerPort }}
           #IMPORTANTE: Si NO se configura [CPU/RAM] NO funcionara el: 'AUTOSCALING'.     
           resources:
             limits:
-              cpu: {{ .values.resourcesCpu }}
+              cpu: {{ .Values.resourcesCpu }}
           env:
           #CONFIGURACION DE 'SECRETs': 
           - name: DUMMY_VARIABLE

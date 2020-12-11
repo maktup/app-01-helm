@@ -10,7 +10,7 @@ metadata:
 spec: 
   ports:
     - name: http
-      port: {{ .values.servicePort }}
+      port: {{ .Values.servicePort }}
   selector:
     app: microservicio-employee-service
     version: v1.0.0
