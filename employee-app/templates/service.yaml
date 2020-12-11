@@ -15,4 +15,3 @@ spec:
     app: microservicio-employee-service
     version: v1.0.0
   type: NodePort
-

@@ -1,4 +1,2 @@
 
-Esto es un CHART xxx.
-
-
+Esto es un CHART xxx

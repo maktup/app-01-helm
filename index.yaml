@@ -3,12 +3,13 @@ entries:
   employee-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-09T22:22:28.4457439-05:00"
-    description: A Helm chart for Kubernetes
-    digest: 55406978079a543d38708f9232e4c737c2faa5ec9110d3f84995c0a0ca585eff
+    created: "2020-12-10T19:45:39.5423899-05:00"
+    description: Este es un Helm chart de Kubernetes para la creacion de una solucion
+      de MICROSERVICIOS
+    digest: 67dca2a6e3b51a3d9cc77d962ec7fb7e118ae3d84ad781ab9b803f801bf4e55e
     name: employee-app
     type: application
     urls:
     - employee-app-0.1.0.tgz
     version: 0.1.0
-generated: "2020-12-09T22:22:28.4447344-05:00"
+generated: "2020-12-10T19:45:39.5423899-05:00"

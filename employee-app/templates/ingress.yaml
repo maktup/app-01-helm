@@ -46,4 +46,3 @@ spec:
         backend:
           serviceName: employee-service
           servicePort: 8080
-

@@ -6,4 +6,3 @@ resourcesCpu: 300m
 
 #SERVICE:
 servicePort: 8080
-  

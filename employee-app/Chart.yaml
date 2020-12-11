@@ -1,9 +1,8 @@
 apiVersion: v2
 name: employee-app
-description: Este es un 'Helm chart' de Kubernetes para la creación de una solución de 'MICROSERVICIOS'.
+description: Este es un Helm chart de Kubernetes para la creacion de una solucion de MICROSERVICIOS
 
-#CONFIGURACIÓN DEL CHART, PARA EL MANTENIMIENTO:  
 type: application
-version: 1.0.0
-appVersion: 1.0.0
+version: 0.1.0
+appVersion: 1.16.0
 
