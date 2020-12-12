@@ -1,8 +1,0 @@
-
-#DEPLOYMENT: 
-appReplicaCount: 2
-containerPort: 8080 
-resourcesCpu: 300m
-
-#SERVICE:
-servicePort: 8080

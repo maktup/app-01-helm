@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: employee-service
+  name: employee-service-v2
   namespace: default
   labels:
-    app: microservicio-employee-service
+    app: microservicio-employee-service-v2
     role: backend
     stage: production
     version: v1.0.0
