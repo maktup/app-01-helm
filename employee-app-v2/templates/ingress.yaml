@@ -1,14 +1,14 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: gateway-ingress
+  name: my-gateway-ingress
   namespace: default
 spec:
   rules:
 #--------------------------------------------------------#
 #----------- CONFIGURACION [employee-service] -----------#
 #--------------------------------------------------------#
-  - host: capacitacion.microservicios.employee
+  - host: dummy.helm.employee
     http:
       paths:
       #PARA 'SWAGGER':
