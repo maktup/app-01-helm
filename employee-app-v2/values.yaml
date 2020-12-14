@@ -1,5 +1,5 @@
 
-replicaCount: 1
-servicePort: 80
+replicaCount: 2
+servicePort: 8080
 imagePod: maktup/employee-service:latest
 ingressDomain: dummy.helm.employee
