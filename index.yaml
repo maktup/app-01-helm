@@ -3,12 +3,12 @@ entries:
   employee-app:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-12-13T21:26:47.3321272-05:00"
+    created: "2020-12-13T21:54:56.8476646-05:00"
     description: Este es un CHART DE HELM para Kubernetes del MICROSERVICIO employee-service
-    digest: 1bd2d699404d4b5df9a28811d55a964764e7b26f1e489f257c5e35f6378dc211
+    digest: e51ad1e6588daa2838070d98e276e90cf8af92a5e63d419e0371655d6e4b9ed6
     name: employee-app
     type: application
     urls:
     - employee-app-1.0.0.tgz
     version: 1.0.0
-generated: "2020-12-13T21:26:47.3311512-05:00"
+generated: "2020-12-13T21:54:56.8466888-05:00"

@@ -8,7 +8,7 @@ spec:
 #--------------------------------------------------------#
 #----------- CONFIGURACION [employee-service] -----------#
 #--------------------------------------------------------#
-  - host: dummy.helm.employee
+  - host: {{ Values.ingressDomain }}
     http:
       paths:
       #PARA 'SWAGGER':
