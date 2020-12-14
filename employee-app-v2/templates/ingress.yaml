@@ -4,8 +4,7 @@ metadata:
   name: my-gateway-ingress
   namespace: default
 spec:
-  rules:
-  
+  rules:  
 #--------------------------------------------------------#
 #----------- CONFIGURACION [employee-service] -----------#
 #--------------------------------------------------------#          
@@ -15,35 +14,35 @@ spec:
       #PARA 'SWAGGER':
       - path: "/"
         backend:
-          serviceName: employee-service
+          serviceName: my-service
           servicePort: 8080
          
       - path: "/employeeservice/get"
         backend:
-          serviceName: employee-service
+          serviceName: my-service
           servicePort: 8080
 
       - path: "/employeeservice/post"
         backend:
-          serviceName: employee-service
+          serviceName: my-service
           servicePort: 8080
 
       - path: "/employeeservice/delete"
         backend:
-          serviceName: employee-service
+          serviceName: my-service
           servicePort: 8080
  
       - path: "/actuator"
         backend:
-          serviceName: employee-service
+          serviceName: my-service
           servicePort: 8080
 
       - path: "/actuator/prometheus"
         backend:
-          serviceName: employee-service
+          serviceName: my-service
           servicePort: 8080
 
       - path: "/actuator/health"
         backend:
-          serviceName: employee-service
+          serviceName: my-service
           servicePort: 8080
