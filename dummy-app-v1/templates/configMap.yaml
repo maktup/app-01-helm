@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-service-configmap
+  namespace: default
+  labels:
+    app: my-deploy
+    role: backend
+    stage: production
+    version: v1.0.0
+data:
+  #-------------------------------------------------------------------#
+  #----------- CONFIGURACION PROPERTIES [employee-service] -----------#
+  #-------------------------------------------------------------------#
+  application.properties: |-
+    grupoconfig01.nombres=CESAR GUERRA
+    grupoconfig01.dni=41816133
+    propiedades.config.valor_01=JAVAMAN
+    propiedades.config.valor_02=MAKTUP
+    

@@ -1,0 +1,7 @@
+apiVersion: v2
+name: dummy-app
+description: Este es un CHART DE HELM para Kubernetes del MICROSERVICIO dummy-micro-01
+
+type: application
+version: 1.0.0
+appVersion: 1.0.0

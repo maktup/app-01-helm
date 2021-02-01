@@ -1,0 +1,15 @@
+
+FELICIDADES acababas de Instalar CORRECTAMENTE el MICROSERVICIO: dummy-micro-01. 
+
+IMPORTANTE:
+Este MICROSERVICIO es un Dummy para pruebas, que devuelve información básica de la PERSONA.
+
+Los LINKs del 'MICROSERVICIO' son:
+
+'URIs' de tipo [GET] son:
+- consultarPersonas:     http://localhost:8080/dummy-micro-01/get/personas
+- consultarPersonaPorId: http://localhost:8080/dummy-micro-01/get/personas/{id}
+
+DETALLE:
+Para INFORMACIÓN interna del MICROSERVICIO, apoyarse en ACTUATOR ingresando a: 'http://localhost:8080/actuator'
+

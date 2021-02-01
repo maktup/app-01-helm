@@ -1,0 +1,5 @@
+
+replicaCount: 2
+servicePort: 8080
+imagePod: maktup/dummy-micro-01:latest
+ingressDomain: dummy.helm.micro01
